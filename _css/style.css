@@ -1,0 +1,46 @@
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    left: 800px;
+    top: 20px;
+
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #689df3;
+    padding: 15px;
+    
+}
+body{
+    background-color: #689df3;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 5px;
+    position: relative;
+}
+img{
+    max-width: 300px;
+}
+    nav#menu a:link{
+        text-decoration: none;
+        color: black;
+        font-family: Verdana;
+        font-weight: bold;
+        transition: all 0.8s ease ;
+}
+nav#menu a:visited{
+    color: black;
+}
+nav#menu a:hover{
+    color: aliceblue;
+}
